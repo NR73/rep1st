@@ -1,0 +1,6 @@
+div:first-child
+{
+    color: red;
+text-transform: uppercase;}
+div:last-child
+{color: #999;}

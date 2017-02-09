@@ -1,0 +1,38 @@
+.myChoise
+  {background-color: green;
+   color: white;
+   font-style: italic;}
+div.text:first-letter
+  {color: red;
+   font-size: 300%}
+h1 {color: orange;
+    text-align: right;}
+.Dacha
+ {color: orange;}
+.stock
+  {color: blue;}
+li.fruitdacha, li.vegetablesdacha, li.fruitstock, li.vegetablesstock
+{font-weight: bold;  }
+.frpos
+{color: grey;
+ font-weight: normal;}
+.vgpos , .vgstpos
+{color:red;
+font-weight: normal;}
+.frstpos
+{color:green;
+ font-weight: normal;}
+.headertable
+{font-weight: bold;
+ text-align: center;
+}
+.FirstColumn
+{color: orange;}
+.NextColumn
+{  background-color: green;
+color: white;
+text-align: center;}
+.studentcolumn
+{width: 150px;}
+.lescoll
+{width:70px;}

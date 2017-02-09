@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<P><DEL> используется для выделения текста, который был удален в новой версии документа.
+   </DEL><br/> Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.</P>
+<p><ins>предназначен для выделения текста, который был добавлен в новую версию документа. </ins>
+    <br/>Подобное форматирование позволяет отследить, какие изменения в тексте документа были сделаны.</p>
+<p><dfn>Новый тег DFN </dfn>    используется когда упоминается новый термин, он выделяется курсивом и дается его определение.
+    <br/>    При использовании этого термина в дальнейшем, он считается уже известным читателю.</p>
+<p>Код программы</p>
+<p><code>
+    function checkParent (src, dest) {<Br>
+    while (src != null) {<Br>
+    if (src.tagName == dest) return src<Br>
+    src = src.parentElement<Br>
+    }<Br>
+    return null<Br>
+    }</code></p>
+
+<p>Проверка, поддерживает браузер JavaScript 1.3 или нет.</p>
+<p><code>
+    &lt;script language=&quot;JavaScript1.3&quot;&gt; JS13 = 1;
+    &lt;/script&gt;<Br>
+    &lt;script language=&quot;JavaScript&quot;&gt;<Br>
+    if (window.JS13) document.write(&quot;Ваш браузер поддерживает JavaScript
+    1.3&quot;);<Br>
+    &lt;/script&gt;
+</code></p>
+<p>В результате выполнения скрипта вы увидите текст <samp>Ваш
+    браузер поддерживает JavaScript 1.3</samp>, в том случае, если браузер
+    работает с версией 1.3.</p>
+
+<p>Для быстрого закрашивания выделенной области цветом переднего плана
+    используйте комбинацию клавиш <kbd>&lt;Alt&gt;+&lt;Backspace&gt;</kbd>
+    или <kbd>&lt;Alt&gt;+&lt;Delete&gt;</kbd>.
+    Для закрашивания выделенной области фоновым цветом
+    воспользуйтесь комбинацией
+    <kbd>&lt;Ctrl&gt;+&lt;Backspace&gt;</kbd> или
+    <kbd>&lt;Ctrl&gt;+&lt;Delete&gt;</kbd>.</p>
+
+<p>В данном примере делается запрос к базе данных для получения поля <var>content_title</var>
+    из таблицы <var>content</var>, причем должно удовлетворяться условие
+    <code>section_id = 1</code>.</p>
+
+<p><em>Айзек Азимов</em></p>
+<p><q>Нельзя сказать человеку: «Ты можешь творить.
+    Так давай, твори». Гораздо вернее подождать, пока он
+    сам не скажет: «Я могу творить, и я буду творить, хотите
+    вы этого или нет».</q></p>
+<p><cite>http://www.asimovonline.com</cite></p>
+<address>
+    Этот партал зделан сабствинаручно веб-дизайнером Ваней Шапочкиным в праграме
+    Блакнот. Если вы хатите взять маи статьи к сибе на сайт то спрасите мое
+    разришение.
+</address>
+<hr>
+<blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat
+        volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper
+        suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</blockquote>
+<hr>
+<p><abbr title="Common Gateway Interface, общий шлюзовый интерфейс">CGI</abbr>
+    обозначается протокол, с помощью которого любые внешние программы взаимодействуют
+    с веб-сервером. С помощью CGI на сервере можно выполнять программы на любом
+    языке программирования и результат их действия выводить в виде веб-страницы.</p>
+<article>
+    История о том, как возле столовой появились загадочные розовые
+    следы с <mark>шестью пальцами</mark>, и почему это случилось.
+</article>
+
+</body>
+</html>

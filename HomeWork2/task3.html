@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form name="form_hw" action="/">
+    Name <br/><input type="text" value="" name="PersonName"/><br/>
+    Email <br/> <input type="email" value="" name="PersonEmail"/><br/>
+    Sex <br/>
+    <input type="radio" value="female" name="PersonSex"/>Female
+    <input type="radio" value="male" name="PersonSex"/> Male <br/>
+    Current status <br/>
+    <input type="checkbox" value="Student" name="PersonStatus"/>Student <br/>
+    <input type="checkbox" value="Employed" name="PersonStatus"/>Employed <br/>
+    <input type="checkbox" value="UnEmployed" name="PersonStatus"/>Unemployed <br/>
+    Month and year of birth <br/>
+      <select name="PersonMonth" >
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+      </select>
+      <input type="number" min="1899" step="1" value="2016" name="PersonYear" size="10"/><br/>
+    Skills and Technologies <br/>
+    <select name="PersonSkills" multiple size="10" >
+    <optgroup label="Tech skills">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="git">git</option>
+    </optgroup>
+    <optgroup label="Soft skills">
+        <option value="TimeManagment">Time Managment</option>
+        <option value="Proactivity">Proactivity</option>
+        <option value="TeamWork">Team Work</option>
+        <option value="LeaderShip">Leader Ship</option>
+    </optgroup>
+    </select><br/>
+    Photo <br/>
+    <input type="file" name="f"/> <br/>
+    Comments <br/>
+    <textarea name="Comments" id="" cols="30" rows="10"></textarea>
+</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.redcheck
+{color:lightpink;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.bluecheck
+{color:lightblue;
+    text-decoration: underline;
+    font-weight: bold;}
+.greencheck
+{color:lightgreen;
+    text-decoration: underline;
+    font-weight: bold;}
+.greenbutton
+{background-color: green;
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    display: none;}
+.redbutton
+{background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: none;}
+.bluebutton
+{background-color: blue;
+    color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    display: none;}
+input[name="redcheckbox"]:checked + .redcheck
+{color:red;}
+input[name = "greencheckbox"]:checked + .greencheck
+{color: green;}
+input[name = "bluecheckbox"]:checked + .bluecheck
+{color: blue;}
+input[name="redcheckbox"]:checked ~ span.redbutton
+{display: inline;}
+input[name="greencheckbox"]:checked ~ span.greenbutton
+{display: inline;}
+input[name="bluecheckbox"]:checked ~span.bluebutton
+{display: inline;}
